@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-6 repoContainer"  ng-repeat="repo in  userRepo | orderBy:predicate:reverse">
+                <div class="repoContent">
+                    <div class="repoTitle">
+                        <a href="{{repo.url}}" target="_blank">{{repo.name}}</a>
+                    </div>
+
+                    <div class="repoDescription">
+                     {{repo.description}}
+                    </div>
+
+                    <div class="repoOrganitation">
+                        <a href="{{repo.organizations_url}}}" target="_blank">{{repo.organizations_url}}</a>
+                    </div>
+                    <div class="repoSIze">
+                        {{repo.size}}
+                    </div>
+                    <div class="repoLanguage">
+                        {{repo.language}}
+                    </div>
+                </div><!--repoContent-->
+            </div>
+        </div>
+    </div>
+</div>

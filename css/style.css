@@ -1,0 +1,76 @@
+.backgroundcol9{
+    background-color: #262629;
+    height: 522px;
+    color: white;
+}
+.backgroundcol3{
+    background-color: #ffffff;
+    height: 500px;
+}
+.myBlok h2{
+    color: #ffffff;
+    margin-top: 150px;
+    margin-left: 41px;
+    font-size: 50px;
+}
+.logoImage{
+    width: 201px;
+    height: 80px;
+}
+.logoWidthHeight{
+    width: 100%;
+    height: 100px;
+}
+.kitchenSick img{
+    width: 100%;
+    height: 230px;
+    margin-top: 20px;
+}
+.textContent{
+    background: aliceblue;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: -42px;
+}
+.main{
+    margin-bottom: 80px;
+}
+.marginBotton{
+    margin-bottom: 20px;
+}
+.widthImage{
+    width: 100%;
+    max-height: 196px;
+}
+.avatarImage{
+    width: 100%;
+}
+.repoConatainer{
+    border: 1px solid #050505;
+    padding: 20px;
+}
+.repoContent {
+    border: 1px #e5e5e5 solid !important;
+    margin-bottom: 20px;
+    padding: 14px;
+}
+.repoDescription.ng-binding {
+    min-height: 70px;
+}
+.repoLanguage.ng-binding {
+    background: gray;
+    color: #fff;
+    display: inline;
+    padding: 3px;
+    border-radius: 2px;
+    padding: 1px 5px;
+}
+.repoSIze.ng-binding {
+    display: inline;
+    margin-right: -2px;
+    padding: 5px;
+}
+.repoTitle {
+    font-size: 20px;
+    min-height: 52px;
+}
